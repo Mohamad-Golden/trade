@@ -25,3 +25,9 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+@font-face {
+  font-family: "Vazir";
+  src: url("/fonts/Vazir.ttf");
+  font-weight: 500;
+}
