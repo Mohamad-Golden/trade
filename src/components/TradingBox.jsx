@@ -38,7 +38,7 @@ export default function TradingBox({ title }) {
   }
 
   function handleGold({ formattedValue, value }) {
-    const price = roundNumber(parseFloat(value) * perGramPrice, 3);
+    const price = roundNumber(parseFloat(value) * perGramPrice);
     setTradeData((prev) => ({
       ...prev,
       gold: formattedValue,
